@@ -1,0 +1,38 @@
+//
+//  KNMusic.pch
+//  KNMusic
+//
+//  Created by KN on 15/9/3.
+//  Copyright (c) 2015年 KN. All rights reserved.
+//
+
+
+
+#ifdef __OBJC__
+
+
+#import "UIView+Additions.h"
+#import "NSError+Additions.h"
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "LKDBHelper.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
+#define kNaviBackColor  [UIColor colorWithRed:192.0f/255.0f green:37.0f/255.0f blue:62.0f/255.0f alpha:1.0f]
+
+#define kScreenWidth    [[UIScreen mainScreen] applicationFrame].size.width
+#define kScreenHeight   [[UIScreen mainScreen] applicationFrame].size.height
+
+#define kServerBase @"tingapi.ting.baidu.com"
+#define kAppErrorDomain @"应用错误"
+#define kErrorParse @"解析数据出错"
+
+
+#define KNTabBarHiddenOrShow    @"KNTabBarHiddenOrShow"
+#define KNTabBarInfoKey         @"KNTabBarInfoKey"
+
+#endif
+
+
